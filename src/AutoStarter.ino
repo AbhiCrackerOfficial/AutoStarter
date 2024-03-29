@@ -8,8 +8,8 @@
 #include "funcs.h"
 #include "page.h"
 
-const char* ssid = "AP";
-const char* password = "$-10family01-$";
+const char* ssid = "<Your-Wifi-SSID>";
+const char* password = "<Your-Wifi-Password>";
 const char* host = "autostarter";
 const long utcOffsetInSeconds = 5 * 3600 + 30 * 60; // +5:30 offset in seconds
 WiFiUDP ntpUDP;
